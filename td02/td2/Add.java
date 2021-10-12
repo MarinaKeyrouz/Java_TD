@@ -16,11 +16,7 @@ public class Add implements Expr{
 	
 	public Add(Val val1,Expr e) {
 		this.right=val1;
-		if(e instanceof Val) {
-			this.left=(Val)e;
-		}else if(e instanceof Add) {
-			this.left=(Add)e;
-		}
+		this.left=e;
 		
 	}
 	@Override
