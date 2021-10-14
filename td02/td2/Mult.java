@@ -2,8 +2,8 @@ package td2;
 
 public class Mult implements Expr{
 	
-	Val right;
-	Expr left;
+	private final Expr right;
+	private final Expr left;
 
 	public Mult(Val val1,Expr e) {
 		this.right=val1;

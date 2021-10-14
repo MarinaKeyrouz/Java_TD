@@ -1,9 +1,8 @@
 package td2;
 
 public class Racine implements Expr{
-	Val right;
-	Expr left;
-
+	private final Expr right;
+	
 	public Racine(Val val1) {
 		this.right=val1;
 		

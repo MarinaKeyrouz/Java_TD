@@ -11,8 +11,8 @@ public class Add implements Expr{
 //		return right+left;
 //	}
 	
-	Val right;
-	Expr left;
+	private final Expr right;
+	private final Expr left;
 	
 	public Add(Val val1,Expr e) {
 		this.right=val1;
