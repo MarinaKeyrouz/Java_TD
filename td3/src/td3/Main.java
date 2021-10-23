@@ -17,20 +17,14 @@ public class Main {
 //		System.out.println(l.size());
 //		System.out.println(l.last);
 		
-//		MyList ml = new MyList();
-//		ml.addLast("tatu");
-//		ml.add("toto");
-//		ml.add("titi");
-//		ml.addLast("tutu");
-//		System.out.println(ml);
-//		System.out.println(ml.get(3));
-//		System.out.println(ml.sumLetter());
-		
-		System.out.println("hg");
-		MyList l = new MyList();
-		for(int i=0;i<100000;i++) {
-			l.add(Integer.toString(i));
-		}
-		l.toString();		
+		MyList ml = new MyList();
+		ml.addLast("tatu");
+		ml.add("toto");
+		ml.add("titi");
+		ml.addLast("tutu");
+		System.out.println(ml);
+		System.out.println(ml.get(3));
+		System.out.println(ml.sumLetter());
+			
 	}
 }
